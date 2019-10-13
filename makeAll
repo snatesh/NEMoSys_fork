@@ -1,0 +1,6 @@
+#!/bin/bash
+ rm -rf build
+ mkdir build && cd build
+ CMAKE_PREFIX_PATH=/usr/local/NEMoSys/madlib:/usr/local/NEMoSys/gmsh:/usr/local/NEMoSys/cgns:/usr/local/NEMoSys/netgen cmake -DENABLE_BUILD_UTILS=ON -DENABLE_PYTHON_BINDINGS=ON -DCMAKE_INSTALL_PREFIX=/usr/local/NEMoSys ..
+ make -j
+ make install
