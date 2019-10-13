@@ -10,7 +10,7 @@ between arbitrary meshes. Python bindings to the Nemosys library can also be ena
 To acquire NEMosys, you can download it from Illinois Rocstar's GitHub
 or clone it with the following command:
 ```
-$ git clone git@git.illinois.rocstar:Nemosys/Nemosys.git
+$ git@github.com:snatesh/NEMoSys_fork.git
 ```
 ## Build Instructions ##
 ### Build Dependencies ###
